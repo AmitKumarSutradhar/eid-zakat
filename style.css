@@ -9,11 +9,17 @@ body{
 .container{
     padding: 5% 20%;
 }
+.container2{
+    padding: 3% 12%;
+}
 .flex{
     display: flex;
 }
 .space-between{
     justify-content: space-between;
+}
+.align_centre{
+    text-align: center;
 }
 h1{
     font-size: 55px;
@@ -49,9 +55,29 @@ button{
     color: #fff;
 }
 
+.donation_type_item{
+    width: 40%;
+    background-color: #FEF4F5;
+    border-radius: 5px;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+.donation_type_item img{
+    margin-right: 17px;
+}
+
+#blog h2,#blog p{
+    text-align: center;
+    margin: 15px;
+}
 .blog_item{
+    width: 30%;
     border-radius: 5px;
     box-shadow: 1px 1px #888;
+    margin-top: 25px;
+}
+.blog_item div img{
+    width: 100%;
 }
 .blog_content{
     padding: 25px 30px;
