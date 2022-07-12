@@ -18,6 +18,9 @@ body{
 .space-between{
     justify-content: space-between;
 }
+.item_center{
+    align-items: center;
+}
 .align_centre{
     text-align: center;
 }
@@ -32,6 +35,7 @@ h2{
     font-size: 45px;
     font-family: 'Inter', sans-serif;
     font-weight: 700;
+    margin-bottom: 12px;
 }
 button{
     color: #fff;
@@ -55,6 +59,10 @@ button{
     color: #fff;
 }
 
+#goal .content{
+    width: 45%;
+}
+
 .donation_type_item{
     width: 40%;
     background-color: #FEF4F5;
@@ -66,7 +74,7 @@ button{
     margin-right: 17px;
 }
 
-#blog h2,#blog p{
+.section_heading{
     text-align: center;
     margin: 15px;
 }
